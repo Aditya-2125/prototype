@@ -19,5 +19,5 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 - Use the original project's light cream app-download banner and sports imagery as the reference for that section.
 - Keep the athlete-story image a transparent athlete cutout over the CSS halo; do not bake a rectangular green background into the image, because its edge cuts across the face visually.
 - Keep the hero, athlete story, community preview, discovery playground, signal wall, and Insight AI sections compact enough to scan on a laptop: moderate headline sizes, smaller imagery, and restrained vertical spacing. Retain readable copy and usable controls on mobile.
-- User authorized Firebase Hosting deployment to `prototype-7b5bd` and publishing only this project to `https://github.com/aditya2521/prototype.git`. Original Chinstrap projects are read-only references.
+- User authorized Firebase Hosting deployment to `prototype-7b5bd` and publishing only this project to `https://github.com/Aditya-2125/prototype.git`, the current GitHub destination. Original Chinstrap projects are read-only references.
 - All five onboarding roles need distinct profile, context, connection, verification, and access steps. School details must not be required for parents, coaches, agents, or organizations. Invitations and verification are optional and explicitly simulated in the prototype.
