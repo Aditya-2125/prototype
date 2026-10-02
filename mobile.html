@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f6f8f6" />
+    <meta
+      name="description"
+      content="Your sports community, programs, and next opportunity."
+    />
+    <title>Chinstrap — Mobile</title>
+    <link rel="icon" href="assets/chinstrap-notch-logo-v2.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/prototype-switch.css" />
+    <link rel="stylesheet" href="src/mobile/mobile.css" />
+    <link rel="stylesheet" href="src/mobile/refinements.css" />
+  </head>
+  <body class="mobile-prototype">
+    <header class="prototype-switch">
+      <span>CHINSTRAP <b>MOBILE</b></span>
+      <nav aria-label="Platform">
+        <a href="index.html">Web</a
+        ><a href="mobile.html" aria-current="page">Mobile</a>
+      </nav>
+      <small>Your sports world</small>
+    </header>
+    <div class="preview-stage">
+      <aside class="preview-intro">
+        <span class="preview-eyebrow">CHINSTRAP / MOBILE</span>
+        <h1>Your sports world.<br />Always with you.</h1>
+        <p>A place for your people, your progress, and your next big move.</p>
+        <div class="preview-features">
+          <span><i class="fa-solid fa-compass"></i> Find your fit</span
+          ><span><i class="fa-solid fa-user-group"></i> Build your circle</span
+          ><span><i class="fa-solid fa-chart-line"></i> Own your journey</span>
+        </div>
+        <nav class="preview-flow-links" aria-label="Account and insights">
+          <a href="#welcome">Welcome</a><a href="#signup">Sign up</a
+          ><a href="#login">Sign in</a><a href="#insight">Insight AI</a>
+        </nav>
+        <div class="preview-note">
+          <span class="demo-dot"></span> Your people. Your progress.<br /><small
+            >Explore the tabs and tap into any story.</small
+          >
+        </div>
+      </aside>
+      <div class="phone" aria-label="Chinstrap mobile app">
+        <div class="status-bar" aria-hidden="true">
+          <b>9:41</b><span class="camera-island"></span
+          ><span
+            ><i class="fa-solid fa-signal"></i><i class="fa-solid fa-wifi"></i
+            ><i class="fa-solid fa-battery-full"></i
+          ></span>
+        </div>
+        <header id="app-header" class="app-header"></header>
+        <main id="app-content" tabindex="-1"></main>
+        <div id="onboarding-actions" class="onboarding-actions" hidden></div>
+        <nav
+          id="tab-bar"
+          class="tab-bar"
+          aria-label="Mobile app navigation"
+        ></nav>
+        <button
+          id="create-post-fab"
+          class="create-post-fab"
+          data-go="compose"
+          aria-label="Create a post"
+          title="Create a post"
+          hidden
+        >
+          <i class="fa-solid fa-plus" aria-hidden="true"></i>
+        </button>
+        <div
+          id="mobile-toast"
+          class="toast"
+          role="status"
+          aria-live="polite"
+        ></div>
+        <div class="home-indicator" aria-hidden="true"></div>
+      </div>
+      <aside class="preview-caption">
+        <span>BUILT AROUND YOUR NEXT MOVE</span>
+        <p>Real experiences.<br />A clearer direction.</p>
+        <div>01 / CONNECT<br />02 / DISCOVER<br />03 / GROW</div>
+      </aside>
+    </div>
+    <dialog id="post-share-sheet" aria-labelledby="share-title">
+      <header>
+        <h2 id="share-title">Share this moment</h2>
+        <button
+          class="icon-button"
+          data-action="close-share"
+          aria-label="Close share dialog"
+        >
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </header>
+      <p>Copy a link to this post.</p>
+      <label class="field"
+        >Post link<input readonly aria-label="Post link" /></label
+      ><button class="primary full" data-action="copy-post-link">
+        Copy link
+      </button>
+    </dialog>
+    <script type="module" src="src/mobile/mobile.js"></script>
+  </body>
+</html>
